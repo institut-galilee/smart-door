@@ -21,7 +21,7 @@ if a person is in front of the door, it opens automatically if it's recognized b
 the idea of this project resembles the project of august smart lock. 
 here is a useful link to explain :  https://www.youtube.com/watch?v=WMln85LNENo
 
-* 2sd-Version : 
+* 2nd-Version : 
 the purpose of the second version is to improve the security side of the camera.
 For example:
 We can put a picture of a person in front of the camera and this person is recognized by the door.
