@@ -13,24 +13,28 @@
 ## Project name: SMART DOOR 
 
 #### Idea: 
-a smart door, which opens automatically if it recognizes people in front of it, is connected to the Internet, which allows it to warn the smartphone or other electronic device of the owner of the house when a stranger enters at the entrance!
+a smart door will open automatically if it recognizes the person standing in front of it.
+In the opposite case, if it doesn't, a notification is sent to the owner device who can choose whether to allow the person to enter the house or not.
 
-#### Explanation: 
+#### Proposed Versions: 
 * 1st-Version :
-if a person is in front of the door, it opens automatically if it's recognized by notifying the owner that the person has returned to his home, if the person is foreign (the device doesn't recognize the person), a warning is sent to the owner of the house who can accept or refuse to open the door (he has the possibility to add this person in the list of people that the door can recognize)
-the idea of this project resembles the project of august smart lock. 
+The first version is a simple one :
+if a person wants to enter and is recognized, the door open automatically (in our case a led lights up green).
+If the person is foreign (a led lights up red), a notification is sent to the owner of the house who can accept or refuse to open the door (also, he has the possibility to add this person in the list of people that the device can recognize)
+the idea of this project resembles the project of august smart lock (But the challenge is to make it work with low cost equipment!). 
 here is a useful link to explain :  https://www.youtube.com/watch?v=WMln85LNENo
 
 * 2nd-Version : 
-the purpose of the second version is to improve the security side of the camera.
+the purpose of the second version is to improve the security part of the device.
 For example:
 We can put a picture of a person in front of the camera and this person is recognized by the door.
-So we have to detect that this person really exists.
+So we have to detect a real person from pictured one.
 
 * 3rd-Version :
-the third version is still based on improving the security side, another example:
-It can happen on a day when a thief forces a person to stand in front of the door because that person can be recognized by the door, and that way he can return. 
-So the idea is to open the door based on a model of recognition of emotions.
+The last version we can propose is still based on improving the security part(because a 100% secure device is the real challenge)
+another example:
+A thief can force a person to stand in front of the door because that person can be recognized by the door. 
+So the idea is to open the door based on a model of emotions recognition .
 
 
 #### Framework:
