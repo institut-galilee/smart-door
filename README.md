@@ -47,9 +47,9 @@ So the idea is to open the door based on a model of emotions recognition .
 
 ## List of essential components:
 
-ESP32-Wrover: 
+* ESP32-Wrover: 
      a powerful, generic WiFi-BT-BLE MCU module that targets a wide
      variety of applications, ranging from low-power sensor networks to the most demanding tasks, 
      such as voice encoding, music streaming and MP3 decoding.
-ov2640 camera:
+* ov2640 camera:
 	2 Megapixels,supports image sizes: scaling down from SXGA to 40×30, image quality controls including [color saturation, gamma, sharpness, lens correction, white pixel canceling, noise canceling, and 50/60 Hz luminance detection]
