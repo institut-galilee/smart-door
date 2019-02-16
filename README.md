@@ -22,42 +22,34 @@ The first version is a simple one :
 if a person wants to enter and is recognized, the door open automatically (in our case a led lights up green).
 If the person is foreign (a led lights up red), a notification is sent to the owner of the house who can accept or refuse to open the door (also, he has the possibility to add this person in the list of people that the device can recognize)
 the idea of this project resembles the project of august smart lock (But the challenge is to make it work with low cost equipment!). 
-here is a useful link to explain :  https://www.youtube.com/watch?v=WMln85LNENo
+here is a useful link to explain:  https://www.youtube.com/watch?v=WMln85LNENo
 
 * 2nd-Version : 
 the purpose of the second version is to improve the security part of the device.
 For example:
-We can put a picture of a person in front of the camera and this person is recognized by the door.
+Someone can put a picture of a person in front of the camera and this person is recognized by the door.
 So we have to detect a real person from pictured one.
 
 * 3rd-Version :
-The last version we can propose is still based on improving the security part(because a 100% secure device is the real challenge)
-another example:
+The last version we can propose is still based on improving the security part( because a 100% secure device is the real challenge)
+So here's another example:
 A thief can force a person to stand in front of the door because that person can be recognized by the door. 
 So the idea is to open the door based on a model of emotions recognition .
 
 
 #### Framework:
-* Espressif Systems Audio Development Framework (ESP-ADF): 
-		is the official audio development framework for the ESP32 chip.
-* TensorFlow:
-	    is an open source machine learning tool.
+* ESP-WHO: is a face detection and recognition platform that is currently based on Espressif Systems' ESP32 chip
+* TensorFlow: is an open source machine learning framework.
 
 #### Library : 
-* Open-cv : 
-    a free graphics library, originally developed by Intel, specializing in real-time image processing.
+* Open-cv :an open Source Computer Vision Library specialized in real-time image processing.
 
 
 ## List of essential components:
 
-     ESP32-Wrover: 
+ESP32-Wrover: 
      a powerful, generic WiFi-BT-BLE MCU module that targets a wide
      variety of applications, ranging from low-power sensor networks to the most demanding tasks, 
      such as voice encoding, music streaming and MP3 decoding.
-#### OR
-	  ESP32-EYE:
-    this is Espressif’s new AI development board featuring voice wakeup, as well as face
-	  detection and recognition. It has been built around our flagship chip, ESP32, and it is also equipped 
-    with a 2-Megapixel OV 2640 Camera, Microphone, 4 MB Flash, 8MB PSRAM, Micro USB and LED lights on a 21mm × 41mm board”
-
- 
+ov2640 camera:
+	2 Megapixels,supports image sizes: scaling down from SXGA to 40×30, image quality controls including [color saturation, gamma, sharpness, lens correction, white pixel canceling, noise canceling, and 50/60 Hz luminance detection]
