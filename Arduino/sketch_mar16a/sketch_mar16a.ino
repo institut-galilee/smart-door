@@ -1,5 +1,5 @@
 /*********
- Ce code permet a partir d'un serveur de donner l'orre d'alllumer ou eteindre la lumierre des deux lampes.
+This code makes it possible to turn on or off the light of two lamps via a server.
 *********/
 
 // Load Wi-Fi library
