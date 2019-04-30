@@ -46,6 +46,7 @@ dirPathConnu = os.path.join(currentPath, "connu")
 dataBase = []
 names= []
 
+# get faces of people we know
 for root, dirs, files in os.walk(dirPathConnu):
 	for file in files:
 		if file.endswith("png") or file.endswith("jpg") or file.endswith("jpeg"):
@@ -59,6 +60,7 @@ for root, dirs, files in os.walk(dirPathConnu):
 dirPath = os.path.join(currentPath, "toTreat")
 dataBase2 = []
 
+# get faces in front of caméra 
 for root, dirs, files in os.walk(dirPath):
 	for file in files:
 		if file.endswith("png") or file.endswith("jpg") or file.endswith("jpeg"):
@@ -76,5 +78,6 @@ for pictEncoded in dataBase2:
 	for val in listResult[listResult].index.values :
 		if names[val] not in recognized : 
 			recognized.append(names[val])
-	
+
+# List of recognized person, it will be sent to the database			
 print(recognized)
