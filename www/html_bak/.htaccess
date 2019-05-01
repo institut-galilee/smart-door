@@ -1,0 +1,27 @@
+ErrorDocument 404 /404.php
+
+Options +FollowSymLinks
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#RewriteRule ^([^\.]+)\/([^\.]+)\=([^\.]+)\/([^\.]+)$ index.php?page_id=$1&$2=$3&$4
+#RewriteRule ^([^\.]+)\/([^\.]+)\=([^\.]+)$ index.php?page_id=$1&$2=$3
+#RewriteRule ^([^\.]+)\?([^\.]+)\=([^\.]+)&([^\.]+)$ index.php?page_id=$1&$2=$3&$4
+#RewriteRule ^([^\.]+)\?([^\.]+)\=([^\.]+)$ index.php?page_id=$1&$2=$3
+#RewriteRule ^([^\.]+)$ index.php?page_id=$1
+
+#RewriteRule ^help/([\d]+)\?([^\.]+)$ help.php?page_id=$1&$2
+#RewriteRule ^help/([^\.]+|)\?hotelclient=1$ help.php?url_data_string=$1&hotelclient=1
+RewriteRule ^help/([^\.]+|)$ help.php?url_data_string=$1 [QSA]
+
+#            credits/habboclub?hotelclient=1
+RewriteRule ^credits/([^\.]+|)$ credits.php?url_data_string=$1 [QSA]
+#RewriteRule ^credits/\??([^\.]+)\=([^\.]+)$ credits.php?url_data_string=$1
+
+RewriteRule ^([^\.]+)$ $1.php [L]
+</IfModule>
