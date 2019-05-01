@@ -1,16 +1,16 @@
 import boto3 
 
 #The two faces we're gonna compare
-inputFace = "img/8.png"
-targetFace = "img/9.png"
+inputFace = ""
+targetFace = ""
 
 #config the region -in our account id use us-east-2
 boto3.setup_default_session(region_name='us-east-2')
 
 #use The client rekognition for face comparison 
-client = boto3.client('rekognition',
-         aws_access_key_id='AKIAUG6IPVRC2PRET5WE',
-         aws_secret_access_key= '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')
+client = boto3.client('',
+         aws_access_key_id='',
+         aws_secret_access_key= '')
 
 #picture to base64, because we gonna use local files
 with open(inputFace, "rb") as image_file:
