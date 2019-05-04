@@ -138,7 +138,7 @@ static void handle_jpg(http_context_t http_ctx, void* ctx)
 	
     sprintf(buf, "image/%d.jpeg", i); i++;
     http_response_begin(http_ctx, 200, buf, camera_get_data_size());
-    http_response_set_header(http_ctx, "Content-disposition", "inline; filename=/capture.jpg");
+    http_response_set_header(http_ctx, "Content-disposition", "inline; filename=./capture.jpg");
     write_frame(http_ctx);
     http_response_end(http_ctx);
 }

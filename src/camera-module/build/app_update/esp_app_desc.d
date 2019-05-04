@@ -1,7 +1,7 @@
 esp_app_desc.o: \
  /home/ameni/Documents/IOTF/esp-idf/components/app_update/esp_app_desc.c \
  /home/ameni/Documents/IOTF/esp-idf/components/newlib/platform_include/assert.h \
- /home/ameni/Documents/IOTF/esp-idf/examples/esp32-cam-demo/build/include/sdkconfig.h \
+ /home/ameni/Documents/IOTF/smart-door/src/camera-module/build/include/sdkconfig.h \
  /home/ameni/Documents/IOTF/esp-idf/components/newlib/include/stdlib.h \
  /home/ameni/Documents/IOTF/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/ameni/Documents/IOTF/esp-idf/components/newlib/include/_ansi.h \
@@ -41,7 +41,7 @@ esp_app_desc.o: \
 
 /home/ameni/Documents/IOTF/esp-idf/components/newlib/platform_include/assert.h:
 
-/home/ameni/Documents/IOTF/esp-idf/examples/esp32-cam-demo/build/include/sdkconfig.h:
+/home/ameni/Documents/IOTF/smart-door/src/camera-module/build/include/sdkconfig.h:
 
 /home/ameni/Documents/IOTF/esp-idf/components/newlib/include/stdlib.h:
 

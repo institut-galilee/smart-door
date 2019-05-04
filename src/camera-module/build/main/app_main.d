@@ -1,4 +1,5 @@
-app_main.o: /home/ameni/Documents/IOTF/camera-module/main/app_main.c \
+app_main.o: \
+ /home/ameni/Documents/IOTF/smart-door/src/camera-module/main/app_main.c \
  /home/ameni/Documents/IOTF/esp-idf/components/newlib/include/stdio.h \
  /home/ameni/Documents/IOTF/esp-idf/components/newlib/include/_ansi.h \
  /home/ameni/Documents/IOTF/esp-idf/components/newlib/include/newlib.h \
@@ -26,7 +27,7 @@ app_main.o: /home/ameni/Documents/IOTF/camera-module/main/app_main.c \
  /home/ameni/Documents/IOTF/esp-idf/components/newlib/include/stdint.h \
  /home/ameni/Documents/IOTF/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/ameni/Documents/IOTF/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/ameni/Documents/IOTF/camera-module/build/include/sdkconfig.h \
+ /home/ameni/Documents/IOTF/smart-door/src/camera-module/build/include/sdkconfig.h \
  /home/ameni/Documents/IOTF/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/ameni/Documents/IOTF/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/ameni/Documents/IOTF/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -139,7 +140,7 @@ app_main.o: /home/ameni/Documents/IOTF/camera-module/main/app_main.c \
  /home/ameni/Documents/IOTF/esp-idf/components/nvs_flash/include/nvs.h \
  /home/ameni/Documents/IOTF/esp-idf/components/spi_flash/include/esp_partition.h \
  /home/ameni/Documents/IOTF/esp-idf/components/spi_flash/include/esp_spi_flash.h \
- /home/ameni/Documents/IOTF/camera-module/components/camera/include/camera.h \
+ /home/ameni/Documents/IOTF/smart-door/src/camera-module/components/camera/include/camera.h \
  /home/ameni/Documents/IOTF/esp-idf/components/driver/include/driver/ledc.h \
  /home/ameni/Documents/IOTF/esp-idf/components/driver/include/driver/periph_ctrl.h \
  /home/ameni/Documents/IOTF/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
@@ -147,8 +148,8 @@ app_main.o: /home/ameni/Documents/IOTF/camera-module/main/app_main.c \
  /home/ameni/Documents/IOTF/esp-idf/components/esp32/include/esp_dport_access.h \
  /home/ameni/Documents/IOTF/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
  /home/ameni/Documents/IOTF/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
- /home/ameni/Documents/IOTF/camera-module/components/camera/include/bitmap.h \
- /home/ameni/Documents/IOTF/camera-module/components/esp32-http-server/http_server.h \
+ /home/ameni/Documents/IOTF/smart-door/src/camera-module/components/camera/include/bitmap.h \
+ /home/ameni/Documents/IOTF/smart-door/src/camera-module/components/esp32-http-server/http_server.h \
  /home/ameni/Documents/IOTF/esp-idf/components/nghttp/port/include/http_parser.h
 
 /home/ameni/Documents/IOTF/esp-idf/components/newlib/include/stdio.h:
@@ -205,7 +206,7 @@ app_main.o: /home/ameni/Documents/IOTF/camera-module/main/app_main.c \
 
 /home/ameni/Documents/IOTF/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/ameni/Documents/IOTF/camera-module/build/include/sdkconfig.h:
+/home/ameni/Documents/IOTF/smart-door/src/camera-module/build/include/sdkconfig.h:
 
 /home/ameni/Documents/IOTF/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -431,7 +432,7 @@ app_main.o: /home/ameni/Documents/IOTF/camera-module/main/app_main.c \
 
 /home/ameni/Documents/IOTF/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
-/home/ameni/Documents/IOTF/camera-module/components/camera/include/camera.h:
+/home/ameni/Documents/IOTF/smart-door/src/camera-module/components/camera/include/camera.h:
 
 /home/ameni/Documents/IOTF/esp-idf/components/driver/include/driver/ledc.h:
 
@@ -447,9 +448,9 @@ app_main.o: /home/ameni/Documents/IOTF/camera-module/main/app_main.c \
 
 /home/ameni/Documents/IOTF/esp-idf/components/soc/esp32/include/soc/periph_defs.h:
 
-/home/ameni/Documents/IOTF/camera-module/components/camera/include/bitmap.h:
+/home/ameni/Documents/IOTF/smart-door/src/camera-module/components/camera/include/bitmap.h:
 
-/home/ameni/Documents/IOTF/camera-module/components/esp32-http-server/http_server.h:
+/home/ameni/Documents/IOTF/smart-door/src/camera-module/components/esp32-http-server/http_server.h:
 
 /home/ameni/Documents/IOTF/esp-idf/components/nghttp/port/include/http_parser.h:
-/home/ameni/Documents/IOTF/camera-module/main/./app_main.c:
+/home/ameni/Documents/IOTF/smart-door/src/camera-module/main/./app_main.c:
