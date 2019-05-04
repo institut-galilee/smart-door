@@ -1,4 +1,4 @@
-In archive /home/ameni/Documents/IOTF/camera-module/build/main/libmain.a:
+In archive /home/ameni/Documents/IOTF/smart-door/src/camera-module/build/main/libmain.a:
 
 app_main.o:     file format elf32-xtensa-le
 
@@ -24,53 +24,53 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
   9 .text.write_frame 00000026  00000000  00000000  00000248  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 10 .rodata.str1.4 00000559  00000000  00000000  00000270  2**2
+ 10 .rodata.str1.4 00000565  00000000  00000000  00000270  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 11 .text.handle_jpg_stream 00000056  00000000  00000000  000007cc  2**2
+ 11 .text.handle_jpg_stream 00000056  00000000  00000000  000007d8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 12 .text.handle_jpg 0000004e  00000000  00000000  00000824  2**2
+ 12 .text.handle_jpg 0000004e  00000000  00000000  00000830  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 13 .rodata       00000070  00000000  00000000  00000874  2**2
+ 13 .rodata       00000070  00000000  00000000  00000880  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 14 .text.initialise_wifi 000001b6  00000000  00000000  000008e4  2**2
+ 14 .text.initialise_wifi 000001b6  00000000  00000000  000008f0  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 15 .text.event_handler 00000048  00000000  00000000  00000a9c  2**2
+ 15 .text.event_handler 00000048  00000000  00000000  00000aa8  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 16 .text.app_main 00000286  00000000  00000000  00000ae4  2**2
+ 16 .text.app_main 00000286  00000000  00000000  00000af0  2**2
                   CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
- 17 .rodata.__func__$8456 00000010  00000000  00000000  00000d6c  2**2
+ 17 .rodata.__func__$8456 00000010  00000000  00000000  00000d78  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 18 .rodata.__func__$8415 00000009  00000000  00000000  00000d7c  2**2
+ 18 .rodata.__func__$8415 00000009  00000000  00000000  00000d88  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 19 .bss.s_pixel_format 00000004  00000000  00000000  00000d88  2**2
+ 19 .bss.s_pixel_format 00000004  00000000  00000000  00000d94  2**2
                   ALLOC
- 20 .bss.s_ip_addr 00000004  00000000  00000000  00000d88  2**2
+ 20 .bss.s_ip_addr 00000004  00000000  00000000  00000d94  2**2
                   ALLOC
- 21 .rodata.CONNECTED_BIT 00000004  00000000  00000000  00000d88  2**2
+ 21 .rodata.CONNECTED_BIT 00000004  00000000  00000000  00000d94  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
- 22 .bss.s_wifi_event_group 00000004  00000000  00000000  00000d8c  2**2
+ 22 .bss.s_wifi_event_group 00000004  00000000  00000000  00000d98  2**2
                   ALLOC
- 23 .debug_frame  000000a0  00000000  00000000  00000d8c  2**2
+ 23 .debug_frame  000000a0  00000000  00000000  00000d98  2**2
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 24 .debug_info   000027f6  00000000  00000000  00000e2c  2**0
+ 24 .debug_info   000027f6  00000000  00000000  00000e38  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 25 .debug_abbrev 000002df  00000000  00000000  00003622  2**0
+ 25 .debug_abbrev 000002df  00000000  00000000  0000362e  2**0
                   CONTENTS, READONLY, DEBUGGING
- 26 .debug_loc    00000287  00000000  00000000  00003901  2**0
+ 26 .debug_loc    00000287  00000000  00000000  0000390d  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 27 .debug_aranges 00000048  00000000  00000000  00003b88  2**0
+ 27 .debug_aranges 00000048  00000000  00000000  00003b94  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 28 .debug_ranges 00000038  00000000  00000000  00003bd0  2**0
+ 28 .debug_ranges 00000038  00000000  00000000  00003bdc  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 29 .debug_line   000008b9  00000000  00000000  00003c08  2**0
+ 29 .debug_line   000008e6  00000000  00000000  00003c14  2**0
                   CONTENTS, RELOC, READONLY, DEBUGGING
- 30 .debug_str    00001e03  00000000  00000000  000044c1  2**0
+ 30 .debug_str    00001e21  00000000  00000000  000044fa  2**0
                   CONTENTS, READONLY, DEBUGGING
- 31 .comment      0000003b  00000000  00000000  000062c4  2**0
+ 31 .comment      0000003b  00000000  00000000  0000631b  2**0
                   CONTENTS, READONLY
- 32 .xtensa.info  00000038  00000000  00000000  000062ff  2**0
+ 32 .xtensa.info  00000038  00000000  00000000  00006356  2**0
                   CONTENTS, READONLY
- 33 .xt.lit       00000030  00000000  00000000  00006337  2**0
+ 33 .xt.lit       00000030  00000000  00000000  0000638e  2**0
                   CONTENTS, RELOC, READONLY
- 34 .xt.prop      00000228  00000000  00000000  00006367  2**0
+ 34 .xt.prop      00000228  00000000  00000000  000063be  2**0
                   CONTENTS, RELOC, READONLY
