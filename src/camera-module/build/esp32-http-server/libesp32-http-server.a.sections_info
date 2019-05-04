@@ -1,0 +1,202 @@
+In archive /home/ameni/Documents/IOTF/esp-idf/examples/esp32-cam-demo/build/esp32-http-server/libesp32-http-server.a:
+
+http_server.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.parse_hex_digit 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.http_body_cb 00000004  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.http_response_code_to_str 00000024  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.urldecode 0000000c  00000000  00000000  00000060  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.http_find_handler 0000000c  00000000  00000000  0000006c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.headers_list_clear 00000004  00000000  00000000  00000078  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.add_keyval_pair 00000014  00000000  00000000  0000007c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.parse_urlencoded_args 00000024  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.http_send_response_headers 00000064  00000000  00000000  000000b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.clear_parse_buffer 00000004  00000000  00000000  00000118  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.header_value_done 0000000c  00000000  00000000  0000011c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.http_headers_done_cb 00000008  00000000  00000000  00000128  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.header_name_done 00000008  00000000  00000000  00000130  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.append_parse_buffer 00000020  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.http_header_value_cb 00000008  00000000  00000000  00000158  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.http_url_cb 00000004  00000000  00000000  00000160  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.uri_done 0000001c  00000000  00000000  00000164  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.http_header_name_cb 0000000c  00000000  00000000  00000180  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.http_register_handler 00000010  00000000  00000000  0000018c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.http_request_get_header 00000004  00000000  00000000  0000019c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal.http_request_get_arg_value 00000004  00000000  00000000  000001a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal.form_data_handler_cb 0000000c  00000000  00000000  000001a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal.http_register_form_handler 00000010  00000000  00000000  000001b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal.http_response_write 00000010  00000000  00000000  000001c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .literal.http_response_end 00000010  00000000  00000000  000001d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .literal.http_response_end_multipart 00000014  00000000  00000000  000001e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .literal.http_response_set_header 00000004  00000000  00000000  000001f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .literal.http_add_content_length_header 0000000c  00000000  00000000  000001f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .literal.http_response_begin_common 0000000c  00000000  00000000  00000204  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .literal.http_response_begin 00000004  00000000  00000000  00000210  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .literal.http_send_not_found_response 00000014  00000000  00000000  00000214  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .literal.http_handle_connection 00000044  00000000  00000000  00000228  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .literal.http_server 0000002c  00000000  00000000  0000026c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .literal.http_response_begin_multipart 00000008  00000000  00000000  00000298  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .literal.http_server_start 00000030  00000000  00000000  000002a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .literal.http_server_stop 0000000c  00000000  00000000  000002d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text         00000000  00000000  00000000  000002dc  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 37 .data         00000000  00000000  00000000  000002dc  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 38 .bss          00000000  00000000  00000000  000002dc  2**0
+                  ALLOC
+ 39 .text.invoke_handler 00000028  00000000  00000000  000002dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .text.parse_hex_digit 0000002e  00000000  00000000  00000304  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .rodata.parse_hex_digit 000000dc  00000000  00000000  00000334  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 42 .text.http_body_cb 0000001f  00000000  00000000  00000410  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .text.http_message_done_cb 0000000d  00000000  00000000  00000430  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 44 .text.lwip_err_to_esp_err 00000025  00000000  00000000  00000440  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .rodata.str1.4 000001f6  00000000  00000000  00000468  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 46 .text.http_response_code_to_str 00000076  00000000  00000000  00000660  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .text.urldecode 0000007c  00000000  00000000  000006d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .text.http_find_handler 00000033  00000000  00000000  00000754  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .text.headers_list_clear 00000032  00000000  00000000  00000788  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .text.add_keyval_pair 00000051  00000000  00000000  000007bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 51 .text.parse_urlencoded_args 000000bf  00000000  00000000  00000810  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 52 .text.http_send_response_headers 0000014a  00000000  00000000  000008d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 53 .text.clear_parse_buffer 00000013  00000000  00000000  00000a1c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 54 .text.header_value_done 0000002c  00000000  00000000  00000a30  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 55 .text.http_headers_done_cb 00000024  00000000  00000000  00000a5c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 56 .text.header_name_done 0000001a  00000000  00000000  00000a80  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 57 .text.append_parse_buffer 0000005c  00000000  00000000  00000a9c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 58 .text.http_header_value_cb 00000026  00000000  00000000  00000af8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 59 .text.http_url_cb 00000014  00000000  00000000  00000b20  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 60 .text.uri_done 00000063  00000000  00000000  00000b34  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 61 .text.http_header_name_cb 00000038  00000000  00000000  00000b98  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 62 .text.http_register_handler 0000004d  00000000  00000000  00000bd0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 63 .text.http_request_get_header 00000021  00000000  00000000  00000c20  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 64 .text.http_request_get_event 00000007  00000000  00000000  00000c44  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 65 .text.http_request_get_uri 00000007  00000000  00000000  00000c4c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 66 .text.http_request_get_method 0000000b  00000000  00000000  00000c54  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 67 .text.http_request_get_arg_value 00000021  00000000  00000000  00000c60  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 68 .text.http_request_get_data 0000001d  00000000  00000000  00000c84  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 69 .text.form_data_handler_cb 00000034  00000000  00000000  00000ca4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 70 .text.http_register_form_handler 00000049  00000000  00000000  00000cd8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 71 .text.http_response_write 00000061  00000000  00000000  00000d24  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 72 .text.http_response_end 00000042  00000000  00000000  00000d88  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 73 .text.http_response_end_multipart 0000005a  00000000  00000000  00000dcc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 74 .text.http_response_set_header 00000016  00000000  00000000  00000e28  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 75 .text.http_add_content_length_header 00000021  00000000  00000000  00000e40  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 76 .text.http_response_begin_common 0000003a  00000000  00000000  00000e64  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 77 .text.http_response_begin 00000021  00000000  00000000  00000ea0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 78 .text.http_send_not_found_response 00000038  00000000  00000000  00000ec4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 79 .text.http_handle_connection 000000f0  00000000  00000000  00000efc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 80 .text.http_server 0000009f  00000000  00000000  00000fec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 81 .text.http_response_begin_multipart 00000029  00000000  00000000  0000108c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 82 .text.http_server_start 000000a1  00000000  00000000  000010b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 83 .text.http_server_stop 00000028  00000000  00000000  0000115c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 84 .rodata.__func__$7102 00000014  00000000  00000000  00001184  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 85 .rodata.__func__$7270 0000001b  00000000  00000000  00001198  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 86 .debug_frame  00000418  00000000  00000000  000011b4  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 87 .debug_info   00002850  00000000  00000000  000015cc  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 88 .debug_abbrev 00000399  00000000  00000000  00003e1c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 89 .debug_loc    0000101b  00000000  00000000  000041b5  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 90 .debug_aranges 00000170  00000000  00000000  000051d0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 91 .debug_ranges 000001c0  00000000  00000000  00005340  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 92 .debug_line   00001100  00000000  00000000  00005500  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 93 .debug_str    000011ef  00000000  00000000  00006600  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 94 .comment      0000003b  00000000  00000000  000077ef  2**0
+                  CONTENTS, READONLY
+ 95 .xtensa.info  00000038  00000000  00000000  0000782a  2**0
+                  CONTENTS, READONLY
+ 96 .xt.lit       00000120  00000000  00000000  00007862  2**0
+                  CONTENTS, RELOC, READONLY
+ 97 .xt.prop      00000ec4  00000000  00000000  00007982  2**0
+                  CONTENTS, RELOC, READONLY
