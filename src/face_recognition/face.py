@@ -14,8 +14,8 @@ def mysqlConnection():
 	try:
 	    connection = mysql.connector.connect(host='localhost',
 	                             database='smartdoor',
-	                             user='adlan',
-	                             password='adlan')
+	                             user='root',
+	                             password='root')
 	except Error as e :
 	    print ("Error while connecting to MySQL", e)
 	finally:
