@@ -26,7 +26,7 @@
             <div class="card-body">
               <div class="row">
                 <div class="col-md-5">
-                  <form action="setting.php" method="post">
+                  <form action="addusers.php" method="post">
                    <div class="form-group">
                      <label for="addusers_nom">Nom:</label>
                      <input type="text" class="form-control" id="addusers_nom" name="addusers_nom">
