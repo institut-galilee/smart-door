@@ -64,6 +64,7 @@
             <a class="collapse-item" href="addusers.php">Ajouter un utilisateur</a>
             <a class="collapse-item" href="pending.php">Voir les demandes</a>
             <a class="collapse-item" href="logs.php">Voir les logs</a>
+            <a class="collapse-item" href="streaming.php">Voir le flux vidéo</a>
           </div>
         </div>
       </li>
