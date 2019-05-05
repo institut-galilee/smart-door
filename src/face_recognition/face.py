@@ -12,10 +12,10 @@ def mysqlConnection():
 	import mysql.connector
 	from mysql.connector import Error
 	try:
-	    connection = mysql.connector.connect(host='localhost',
+	    connection = mysql.connector.connect(host='127.0.0.1',
 	                             database='smartdoor',
-	                             user='adlan',
-	                             password='adlan')
+	                             user='root',
+	                             password='biza')
 	except Error as e :
 	    print ("Error while connecting to MySQL", e)
 	finally:
@@ -138,3 +138,4 @@ def recognition():
 
 if __name__ == '__main__':
 	recognition()
+
