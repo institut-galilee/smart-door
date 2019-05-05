@@ -40,6 +40,17 @@ def insert(recognizedOrNOT,namePerson):
 	connection.commit()      
 
 
+def updateDoor(valeur):
+	connection = mysqlConnection()
+	cursor = connection.cursor()
+	sql_insert_query =  """Update open_door set user = %s where id = %s"""
+	v1 = 1	
+	insert_tuple = (valeur,v1)
+	cursor.execute(sql_insert_query,insert_tuple)
+	print("inserted")
+	connection.commit()  
+
+
 def recognition():
 	#The current Path 
 	currentPath = os.path.dirname(os.path.abspath(__file__))
@@ -71,7 +82,7 @@ def recognition():
 				    facePILL = Image.fromarray(getFaceLocation)
 				    #facePILL.show()
 				    index = random.randint(1,19061995)
-				    rangeLetters='adlanekadriADLANEKADRI19061995'
+				    rangeLetters='ADLANEKADRI19061995'
 				    pictSavedNames = ''.join((random.choice(rangeLetters) for cpt in range(len(str(index)))))+ "." +'jpg'
 				    #facePILL.save(f'toTreat/{pictSavedNames}.jpg')
 				    saveRoot = os.path.join(currentPath, "toTreat")
@@ -140,11 +151,13 @@ def recognition():
 				imG.save(os.path.join(dirPathSaving,newNames))
 				# adjust width and height to your needs
 			# insert in database	
-			insert(0,"unknown")			
+			insert(0,"unknown")
+			valeur = 0
 			subject = "WARNING"
 			msg = "Attention! \n il y a un inconnu devant la porte"
 		else: 
 			subject = "IFORMATION"
+			valeur =1
 			a = "these person have returned: \n"
 			b = "this person has returned: \n"
 			msg = "We could detect that %s "%(a if len(recognized)>1 else b)  
@@ -152,6 +165,7 @@ def recognition():
 				insert(1,personName) 
 				msg = msg + "- " + personName + "\n"			
 		sms.sendingTEXT(subject, msg)
+		updateDoor(valeur)
 	else : 
 		print("any person detected")
 
