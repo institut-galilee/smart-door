@@ -7,6 +7,8 @@ import random
 import mysql.connector 
 from mysql.connector import Error
 from mysql.connector import errorcode
+from resizeimage import resizeimage
+import shutil
 
 def mysqlConnection():
 	import mysql.connector
@@ -121,7 +123,24 @@ def recognition():
 
 		print(recognized)
 		if(len(recognized)==0):
-			insert(0,"unknown")
+			#copy face to other path 'unknown'
+			currentPath = os.path.dirname(os.path.abspath(__file__))
+			dirPath = os.path.join(currentPath, "toTreat")
+			dirPathSaving = os.path.join(currentPath, "inconnu")
+			filelist = [ f for f in os.listdir(dirPath) if f.endswith("png") or f.endswith("jpg") or f.endswith("jpeg")  ]
+			for f in filelist : 
+				source =os.path.join(dirPath,f)
+				img = Image.open(source)
+				width = 800
+				height = 720
+				imG = img.resize((width, height), Image.ANTIALIAS)
+				index = random.randint(1,19061995)
+				rangeLetters='UNKNOWNunknownadlanekadriADLANEKADRI19061995'
+				newNames = ''.join((random.choice(rangeLetters) for cpt in range(len(str(index)))))+ "." +'jpg'
+				imG.save(os.path.join(dirPathSaving,newNames))
+				# adjust width and height to your needs
+			# insert in database	
+			insert(0,"unknown")			
 			subject = "WARNING"
 			msg = "Attention! \n il y a un inconnu devant la porte"
 		else: 
