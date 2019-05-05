@@ -1,1 +1,1 @@
-405c4f4-dirty esp32-cam-demo v4.0-dev-106-gd31a137-dirty
+57feb27-dirty esp32-cam-demo v4.0-dev-106-gd31a137-dirty
