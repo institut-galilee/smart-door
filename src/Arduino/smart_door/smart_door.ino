@@ -25,8 +25,8 @@ char query[255];
 int user_id;
 
 // Assign output variables to GPIO pins
-const int output26 = 26;
-const int output27 = 27;
+const int output26 = 27;
+const int output27 = 26;
 
 struct previous_user
 {
