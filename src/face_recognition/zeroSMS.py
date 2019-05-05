@@ -11,9 +11,9 @@ def sendingTEXT(subject, msg):
         server.ehlo()
         server.starttls()
         EmailSender= "smartkey19061995@gmail.com"
-        Password="**********"
+        Password="smartkey123456789"
         #Password= getpass("Tap your password: ")
-        EmailReceiver="raheriluc@gmail.com"
+        EmailReceiver="adlan68@live.fr"
         #adlan68@live.fr,raheriluc@gmail.com,andreobrochta@gmail.com, ameni.mtibaa17@gmail.com
            #server.login(config.EMAIL_ADDRESS, config.PASSWORD)
         server.login(EmailSender, Password)

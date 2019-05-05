@@ -15,7 +15,7 @@ def mysqlConnection():
 	from mysql.connector import Error
 	try:
 	    connection = mysql.connector.connect(host='127.0.0.1',
-	                             database='smartdoor',
+	                             database='connectedKEY',
 	                             user='root',
 	                             password='biza')
 	except Error as e :
