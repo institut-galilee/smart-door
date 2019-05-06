@@ -5,8 +5,8 @@
 #include <WiFiClient.h>
 
 // Network credentials
-const char *ssid = "Lenovo2205";
-const char *password = "andre77270";
+const char *ssid = "adan";
+const char *password = "kadriadlan";
 byte mac_addr[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 
 //Wifi configuration
@@ -76,7 +76,7 @@ void loop() {
   int user_status;
   row_values *row = NULL;
 
-  delay(3000);
+  delay(1000);
 
   //ici on aura l'algorithme de reconnaissance facial
   //celui-ci n'étant pas prêt, nous admettrons pour l'instant que par défaut, notre
@@ -112,6 +112,7 @@ void loop() {
         Serial.println("");
       }
       p_user.detail = -1; //Pour anticiper des futurs bugs
+      p_user.user_id = -1;
     }
     return;
   }
@@ -175,7 +176,7 @@ int get_user_via_mysql(void) //fonction temporaire simulant l'lgo de reconnaissa
 {
   int res;
   row_values *row = NULL;
-  sprintf(query, "SELECT user FROM smart_door.test_user LIMIT 1");
+  sprintf(query, "SELECT user FROM smart_door.open_door LIMIT 1");
   MySQL_Cursor *cur_mem = new MySQL_Cursor(&conn);
   // Execute the query
   cur_mem->execute(query);
