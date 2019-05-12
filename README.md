@@ -23,6 +23,7 @@ if a person wants to enter and is recognized, the door open automatically (in ou
 If the person is foreign (a led lights up red), a notification is sent to the owner of the house who can accept or refuse to open the door (also, he has the possibility to add this person in the list of people that the device can recognize)
 the idea of this project resembles the project of august smart lock (But the challenge is to make it work with low cost equipment!). 
 here is a useful link to explain:  https://www.youtube.com/watch?v=WMln85LNENo
+here is a link of our first version : https://youtu.be/WWc-0oCVvxw
 
 * 2nd-Version : 
 the purpose of the second version is to improve the security part of the device.
