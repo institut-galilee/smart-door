@@ -23,7 +23,7 @@ if a person wants to enter and is recognized, the door open automatically (in ou
 If the person is foreign (a led lights up red), a notification is sent to the owner of the house who can accept or refuse to open the door (also, he has the possibility to add this person in the list of people that the device can recognize)
 the idea of this project resembles the project of august smart lock (But the challenge is to make it work with low cost equipment!). 
 here is a useful link to explain:  https://www.youtube.com/watch?v=WMln85LNENo
-here is a link of our first version : https://youtu.be/WWc-0oCVvxw
+[link of our first version](https://youtu.be/WWc-0oCVvxw) 
 
 * 2nd-Version : 
 the purpose of the second version is to improve the security part of the device.
@@ -54,3 +54,43 @@ So the idea is to open the door based on a model of emotions recognition .
      such as voice encoding, music streaming and MP3 decoding.
 * ov2640 camera:
 	2 Megapixels,supports image sizes: scaling down from SXGA to 40×30, image quality controls including [color saturation, gamma, sharpness, lens correction, white pixel canceling, noise canceling, and 50/60 Hz luminance detection]
+	
+## Requirements
+
+In the following software and hardware list, you can run the code file in this repository.
+
+| Software  | OS  |
+| ------------------------------------ | ----------------------------------- |
+| Python 2.x/3.x, opencv, face_recognition, numpy, pandas, smtp, glob, email,lamp, esp-idf, arduino, | Ubuntu 16.04 or greater |
+
+* Use `pip` to install all packages of python:
+
+E.g.
+
+```
+pip install opencv
+```
+
+you’ll need to make sure you have `pip` available. You can check this by running
+
+```
+pip --version
+```
+
+if you don't have `pip`, i suggest this [link](https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/) to install it
+
+* To install lamp i suggest this [link](https://medium.com/@jangid.hitesh2112/how-to-install-lamp-stack-on-ubuntu-db77ac018116) 
+* To install and config esp-idf follow steps in this [link](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/)
+* To install arduino follow [this](https://doc.ubuntu-fr.org/arduino)
+
+## Test of our application:
+* config the web part ([import data base in your phpmyadmin](https://mediatemple.net/community/products/dv/204403864/export-and-import-mysql-databases), [lunch the webSite](https://www.hostingadvice.com/how-to/how-to-host-your-own-website/))
+* config the caméra : 
+	- config your wifi : using cmd -> ``` make menuconfig ``` 
+	- lunch the caméra : using cmd -> ``` make monitor ```
+	- check the website streaming if it work, to go to the next step
+* config system of face recognition : 
+	- installing all dependencies
+	- lunch the script `face.py`
+* Now, if a person stands in front of the camera the system will detect it and do its work 
+## [Demonstration of our first version](https://www.youtube.com/watch?v=WWc-0oCVvxw&feature=share&fbclid=IwAR0e-pUkGcqRiI6dqgbQRM5dbxpZMZVVLPbPVH8EjWaVkQlPWDz5fFra-9g)
