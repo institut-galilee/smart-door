@@ -3,7 +3,7 @@
 ## group name: KROM
 
 ## Group members
-* Ameni MBTIBAA  (ameni.mtibaa17@gmail.com)  .[A_MTIBAA](https://github.com/amenimtibaa "A_MTIBAA")
+* Ameni MTIBAA  (ameni.mtibaa17@gmail.com)  .[A_MTIBAA](https://github.com/amenimtibaa "A_MTIBAA")
 * André OBROCHTA  (andreobrochta@gmail.com) .[A_OBROCHTA](https://github.com/aobrochta "A_OBROCHTA")
 * Lucky RAHERINIAINA  (raheriluc@gmail.com) .[L_RAHERINIAINA](https://github.com/raheriluc "L_RAHERINIAINA")
 * Adlane KADRI  (adlan68@live.fr) .[A_KADRI](https://github.com/adlaneKadri "A_KADRI")
